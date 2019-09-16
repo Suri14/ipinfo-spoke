@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test current action.</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:13:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cc0d9feedbf333004df3a3a9489619e4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IPInfo Spoke" source="x_402097_ipinfo_sp">debb176edbf333004df3a3a9489619e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">debb176edbf333004df3a3a9489619e4</sys_scope>
+        <sys_update_name>sys_hub_flow_cc0d9feedbf333004df3a3a9489619e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:20:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc0d9feedbf333004df3a3a9489619e4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cc0d9feedbf333004df3a3a9489619e4"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=cc0d9feedbf333004df3a3a9489619e4^sys_idNOT INd96d1f22db3733004df3a3a9489619d7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Geographic Data from IP">fd8c5faedbf333004df3a3a948961946</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow">cc0d9feedbf333004df3a3a9489619e4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:14:51</sys_created_on>
+        <sys_id>d96d1f22db3733004df3a3a9489619d7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">debb176edbf333004df3a3a9489619e4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:20:04</sys_updated_on>
+        <ui_id>ccd9e68b-94a6-45b2-98f2-4a13453fd1ff</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d96d1f22db3733004df3a3a9489619d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d96d1f22db3733004df3a3a9489619d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:20:04</sys_created_on>
+        <sys_id>759edf22db3733004df3a3a94896197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:20:04</sys_updated_on>
+        <value>170.252.72.1</value>
+        <variable display_value="">6a2e1362db3733004df3a3a9489619af</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=cc0d9feedbf333004df3a3a9489619e4^sys_idNOT IN004d1b22db3733004df3a3a9489619e8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Action Test Flow">cc0d9feedbf333004df3a3a9489619e4</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:14:14</sys_created_on>
+        <sys_id>004d1b22db3733004df3a3a9489619e8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">debb176edbf333004df3a3a9489619e4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:20:04</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=004d1b22db3733004df3a3a9489619e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>004d1b22db3733004df3a3a9489619e8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:14:14</sys_created_on>
+        <sys_id>c04d1b22db3733004df3a3a9489619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:14:14</sys_updated_on>
+        <value>2019-09-14 02:05:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cc0d9feedbf333004df3a3a9489619e4^sys_idNOT IN4c0d9feedbf333004df3a3a9489619e6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cc0d9feedbf333004df3a3a9489619e4</id>
+        <name>Action Test Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:13:08</sys_created_on>
+        <sys_id>4c0d9feedbf333004df3a3a9489619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">debb176edbf333004df3a3a9489619e4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:13:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=cc0d9feedbf333004df3a3a9489619e4^sys_idNOT INd96d1f22db3733004df3a3a9489619d7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Geographic Data from IP">fd8c5faedbf333004df3a3a948961946</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow">cc0d9feedbf333004df3a3a9489619e4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:14:51</sys_created_on>
+        <sys_id>d96d1f22db3733004df3a3a9489619d7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">debb176edbf333004df3a3a9489619e4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:20:04</sys_updated_on>
+        <ui_id>ccd9e68b-94a6-45b2-98f2-4a13453fd1ff</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d96d1f22db3733004df3a3a9489619d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d96d1f22db3733004df3a3a9489619d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-13 11:20:04</sys_created_on>
+        <sys_id>759edf22db3733004df3a3a94896197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-13 11:20:04</sys_updated_on>
+        <value>170.252.72.1</value>
+        <variable display_value="">6a2e1362db3733004df3a3a9489619af</variable>
+    </sys_variable_value>
+</record_update>
